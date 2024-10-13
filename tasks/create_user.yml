@@ -11,7 +11,7 @@
     append: true
     state: present
 
-- name: Syncronize authorized_keys
+- name: Synchronize authorized_keys
   ansible.builtin.copy:
     src: ~/.ssh/authorized_keys
     dest: /home/{{ new_user_username }}/.ssh/authorized_keys
