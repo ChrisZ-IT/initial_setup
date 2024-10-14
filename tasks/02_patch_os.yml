@@ -18,5 +18,3 @@
   ansible.builtin.apt:
     autoremove: true
     autoclean: true
-  notify:
-    - Reboot required
